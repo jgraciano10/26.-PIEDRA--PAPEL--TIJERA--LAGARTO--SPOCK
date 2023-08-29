@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form id="player">
+            <div class="contenedor1">
+                <h2>Player1</h2>
+                <di class="contenedorinterno">
+                    <input type="radio" id="piedra" name="player1" value="piedra">
+                    <label for="piedra">🪨Piedra</label>
+                </di>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="papel" name="player1" value="papel">
+                    <label for="papel">📃Papel</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="tijera" name="player1" value="tijera">
+                    <label for="tijera">✂️Tijera</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="lagarto" name="player1" value="lagarto">
+                    <label for="lagarto">🐊Lagarto</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="spock" name="player1" value="spock">
+                    <label for="spock">🖖Spock</label>
+                </div>
+            </div>
+        </form>
+        <di class="marcador">
+            <p id="marcador1">0</p>
+            <p id="marcador2">0</p>
+
+        </di>
+        <form>
+            <div class="contenedor1">
+                <h2>Player 2</h2>
+                <di class="contenedorinterno">
+                    <input type="radio" id="piedra1" name="player2" value="piedra">
+                    <label for="piedra">🪨Piedra</label>
+                </di>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="papel1" name="player2" value="papel">
+                    <label for="papel">📃Papel</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="tijera1" name="player2" value="tijera">
+                    <label for="tijera">✂️Tijera</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="lagarto1" name="player2" value="lagarto">
+                    <label for="lagarto">🐊Lagarto</label>
+                </div>
+    
+                <div class="contenedorinterno">
+                    <input type="radio" id="spock1" name="player2" value="spock">
+                    <label for="spock">🖖Spock</label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="contendor-botones"> 
+        <button id="enviar">Jugar</button>
+        <button id="gameover">Fin de la partida</button>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
